@@ -1,0 +1,69 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    
+}
+.profile{
+    background-color: hsl(0, 0%, 12%);
+    width: 375px;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    padding: 20px 10px 30px 10px;
+    border-radius: 15px;
+}
+
+.image{
+    width: 160px;
+    margin: auto;
+    display: flex;
+    border-radius: 90px;
+}
+.button{
+    width: 330px;
+    height: 45px;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    margin: 8px;
+    border-radius: 5px;
+    font-family: Inter;
+    font-weight: 700;
+
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button:active{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+
+.profile h2{
+    font-family: Inter;
+}
+.profile h3{
+    font-family: Inter;
+    color: hsl(75, 94%, 57%);
+    font-size: 16px;
+    
+}
+
+.profile p{
+    font-family: Inter;
+}
+
+.attribution{
+    color: white;
+    margin-top: 20px;
+    font-size: 19px;
+    font-family: Inter;
+}
+
+.attribution a{
+    color: white;
+    text-decoration: none;
+}
+
